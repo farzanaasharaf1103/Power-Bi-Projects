@@ -53,6 +53,5 @@ Hands-on with ETL processes and building reusable DAX measures.
 Designing dashboards that highlight actionable insights for business stakeholders.
 
 Applying interactive features like drill-through to improve user experience.
-Designing dashboards that highlight actionable insights for business stakeholders.
 
-Applying interactive features like bookmarks to improve user experience.
+Used Power Query that ensured a clean, consistent, analysis-ready dataset before loading into Power BI.
