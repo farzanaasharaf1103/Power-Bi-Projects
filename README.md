@@ -43,9 +43,6 @@ Data Transformation → Power Query (ETL)
 
 Business Logic → DAX Measures for KPIs and trend analysis
 
-📷 Dashboard Preview
-
-👉 (Add your dashboard screenshot here — e.g., ![Pizza Dashboard](images/pizza_dashboard.png) )
 
 🧑‍💻 Learning Outcomes
 
