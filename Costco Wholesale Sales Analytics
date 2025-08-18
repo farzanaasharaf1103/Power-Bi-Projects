@@ -1,0 +1,89 @@
+🛒 Costco Wholesale Sales Dashboard | Power BI
+
+An end-to-end Sales Analytics Dashboard designed to analyze Costco’s wholesale sales performance across regions, product categories, and customer segments.
+
+The project focuses on business KPIs, profitability, revenue trends, and customer insights, enabling decision-makers to identify growth opportunities and underperforming areas in a highly competitive retail environment.
+
+🚀 Key Business Insights
+
+This dashboard answers critical business questions such as:
+
+💰 What is the total revenue, profit, and quantity sold?
+
+📈 How is Costco performing against revenue targets over time?
+
+🗺️ Which regions and states are driving sales growth, and which are lagging?
+
+🛍️ What is the revenue contribution by product category (Electronics, Furniture, Office Supplies, etc.)?
+
+👥 How do customer segments (Consumer, Corporate, Home Office) impact revenue and profitability?
+
+🎯 Are sales targets being met at regional and product levels?
+
+📊 Dashboard Features
+
+KPI Cards → Quick view of Total Revenue, Profit, and Quantity Sold.
+
+Bookmarks Navigation → Seamless navigation between different views 
+
+Trend Analysis → Line chart showing Revenue vs Target over time.
+
+Regional Insights → US map with state-wise performance.
+
+Category & Segment Analysis → Revenue breakdown by product category and customer segment.
+
+Order vs Target Gauge → Visual representation of progress towards sales goals.
+
+Dynamic Slicers → Filters for Year, Category, and Region.
+
+🛠️ Tech Stack
+
+Data Source → CSV files (Sales, Orders, Products, Regions)
+
+Data Transformation → Power Query for cleaning & preparing data
+
+Business Logic → DAX Measures for KPIs, profitability, and variance analysis
+
+Visualization → Power BI Desktop (Interactive & Storytelling dashboards with bookmarks)
+
+🧩 Hands-On in Power Query
+
+Data preparation was done in Power Query with the following steps:
+
+Removed null values and duplicates across Sales & Orders tables.
+
+Changed data types (date, numeric, categorical) for consistency.
+
+Created calculated columns (e.g., Profit = Sales – Cost).
+
+Built a date dimension table for time-series analysis.
+
+
+📐 DAX Measures Used
+
+Some of the core DAX measures include:
+
+Total Revenue → SUM(Sales[SalesAmount])
+
+Total Profit → SUM(Sales[Profit])
+
+Quantity Sold → SUM(Sales[Quantity])
+
+Revenue Target % → ( [Total Revenue] / [Target Revenue] ) * 100
+
+YoY Growth → ([Current Year Revenue] - [Previous Year Revenue]) / [Previous Year Revenue]
+
+Profit Margin % → ( [Total Profit] / [Total Revenue] ) * 100
+
+
+🧑‍💻 Learning Outcomes
+
+Practical experience with Power Query data transformation.
+
+Building DAX measures for KPIs, profitability etc.
+
+Designing regional insights with maps.
+
+Using bookmarks for storytelling navigation in Power BI.
+
+Creating a performance-driven dashboard with targets vs actuals.
