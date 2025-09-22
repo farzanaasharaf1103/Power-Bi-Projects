@@ -77,4 +77,29 @@ A Power BI dashboard designed to analyze pizza sales performance, customer behav
 - Designed dashboards with actionable insights
 - Enhanced user experience with drill-through navigation
 
+Superstore Sales Analysis – Power BI Dashboard
+Overview
+This project presents a dynamic Power BI dashboard designed to analyze sales performance across countries, months, product categories, and customer accounts. Built using Excel-based data, the dashboard enables stakeholders to monitor growth, assess profitability, and make data-driven decisions with clarity and speed.
+Key Features
+• 	YTD vs PYTD comparison across months and regions
+• 	Country-level heatmap highlighting top-performing markets
+• 	Product category breakdown (Indoor, Outdoor, Landscape)
+• 	Account-level insights showing GP % and YTD value
+• 	KPI scorecards summarizing key metrics
+• 	Automated reporting workflows to reduce manual effort
+
+**Tools & Technologies**
+- Power BI: DAX, Power Query, interactive visuals
+- Excel: Source data preparation and transformation
+- Data Visualization: Bar charts, heatmaps, scatter plots, KPI cards, combo charts
+**Learnings & Outcomes**
+- Structured and cleaned raw Excel data for reliable analysis
+- Designed comparative metrics that are both accurate and intuitive
+- Balanced technical depth with user-friendly layout and storytelling
+- Documented dashboard logic and layout decisions for scalability
+**Use Cases**
+- Retail and finance teams seeking actionable insights
+- BI professionals exploring dashboard design best practices
+- Recruiters evaluating Power BI capabilities in real-world scenarios
+
 
